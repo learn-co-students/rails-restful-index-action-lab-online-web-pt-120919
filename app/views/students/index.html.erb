@@ -1,0 +1,4 @@
+<h1>Students in the Class</h1>
+<% @students.each.with_index(1) do |student, index| %>
+<p><%= "#{index}, #{student.first_name} #{student.last_name}" %></p>
+<% end %>
